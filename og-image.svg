@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#e05a47" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0a0b0e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0b0e"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Subtle Grid / Guitar Strings (Left) -->
+  <g stroke="#e6e7ec" stroke-opacity="0.22" stroke-width="2">
+    <line x1="140" y1="70" x2="140" y2="450"/>
+    <line x1="210" y1="70" x2="210" y2="450"/>
+    <path d="M 280 70 Q 312 240 280 450" stroke="#e05a47" stroke-opacity="0.95" stroke-width="3.5" fill="none"/>
+    <line x1="350" y1="70" x2="350" y2="450"/>
+    <line x1="420" y1="70" x2="420" y2="450"/>
+    <line x1="490" y1="70" x2="490" y2="450"/>
+  </g>
+
+  <!-- Pluck Ripple & Harmonic Diamond Nodes -->
+  <circle cx="295" cy="240" r="36" fill="none" stroke="#e05a47" stroke-width="1.8" stroke-opacity="0.5"/>
+  <circle cx="295" cy="240" r="7" fill="#e05a47"/>
+  <polygon points="140,175 154,190 140,205 126,190" fill="#0a0b0e" stroke="#e6e7ec" stroke-width="2"/>
+  <polygon points="350,295 364,310 350,325 336,310" fill="#0a0b0e" stroke="#e05a47" stroke-width="2.5"/>
+  <polygon points="490,155 504,170 490,185 476,170" fill="#0a0b0e" stroke="#e6e7ec" stroke-width="2"/>
+
+  <!-- Gravity Well (Center-Right) -->
+  <circle cx="650" cy="255" r="72" fill="none" stroke="#4a9e8f" stroke-width="2" stroke-dasharray="6 8"/>
+  <circle cx="650" cy="255" r="7" fill="#4a9e8f"/>
+
+  <!-- Geometric Percussion Shapes (Right) -->
+  <circle cx="885" cy="175" r="44" fill="none" stroke="#e6e7ec" stroke-width="2.2"/>
+  <polygon points="1035,127 1083,175 1035,223 987,175" fill="none" stroke="#e05a47" stroke-width="2.8"/>
+  <polygon points="885,295 930,375 840,375" fill="none" stroke="#e6e7ec" stroke-width="2.2"/>
+  <polygon points="1035,295 1075,318 1075,362 1035,385 995,362 995,318" fill="none" stroke="#e6e7ec" stroke-width="2.2"/>
+
+  <!-- Typography Overlay -->
+  <text x="600" y="245" text-anchor="middle" fill="#e6e7ec" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="66" font-weight="700" letter-spacing="16">KINETICA</text>
+  <text x="600" y="292" text-anchor="middle" fill="#8b90a0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="20" font-weight="500" letter-spacing="5">STRINGS • GEOMETRIC PERCUSSION • LIVE SCORE</text>
+
+  <!-- Bottom Sheet Music Staff -->
+  <rect x="0" y="485" width="1200" height="145" fill="#0e0f14"/>
+  <g stroke="#e6e7ec" stroke-opacity="0.2" stroke-width="1.5">
+    <line x1="80" y1="515" x2="1120" y2="515"/>
+    <line x1="80" y1="531" x2="1120" y2="531"/>
+    <line x1="80" y1="547" x2="1120" y2="547"/>
+    <line x1="80" y1="563" x2="1120" y2="563"/>
+    <line x1="80" y1="579" x2="1120" y2="579"/>
+  </g>
+  <line x1="1060" y1="500" x2="1060" y2="594" stroke="#e05a47" stroke-width="2.5"/>
+
+  <!-- Transcribed Notes on Staff -->
+  <g fill="#e6e7ec" stroke="#e6e7ec" stroke-width="2">
+    <ellipse cx="340" cy="563" rx="8" ry="5.5" transform="rotate(-20 340 563)"/>
+    <line x1="347" y1="563" x2="347" y2="528"/>
+
+    <ellipse cx="520" cy="539" rx="8" ry="5.5" transform="rotate(-20 520 539)" fill="#e05a47" stroke="#e05a47"/>
+    <line x1="513" y1="539" x2="513" y2="574" stroke="#e05a47"/>
+
+    <!-- Drum X notehead -->
+    <line x1="713" y1="524" x2="727" y2="538" stroke="#e05a47" stroke-width="2.5"/>
+    <line x1="727" y1="524" x2="713" y2="538" stroke="#e05a47" stroke-width="2.5"/>
+    <line x1="713" y1="531" x2="713" y2="566" stroke="#e05a47"/>
+
+    <ellipse cx="910" cy="547" rx="8" ry="5.5" transform="rotate(-20 910 547)"/>
+    <line x1="903" y1="547" x2="903" y2="582"/>
+  </g>
+</svg>
